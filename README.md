@@ -218,9 +218,10 @@ Please cite:
 
 ## Project links
 
-- GitHub repository and release: **[add GitHub URL]**
-- Zenodo archive: **[add Zenodo URL]**
-
+- GitHub repository and release:  https://github.com/HedeleZeng/Mural-VISTA.git
+- Zenodo archive: 10.5281/zenodo.22124716
+- BioRxiv archive: 
+  
 ## License
 
 Copyright © 2026 Hedele Zeng.
