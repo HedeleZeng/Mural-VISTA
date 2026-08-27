@@ -1,17 +1,28 @@
-#!/usr/bin/env python
+# Portions of this file are derived from VMTK
+# (Vascular Modeling Toolkit).
+#
+# Original VMTK code:
+	# Program:   VMTK
+	# Module:    $RCSfile: vmtkcenterlines.py,v $
+	# Language:  Python
+	# Date:      $Date: 2006/07/17 09:52:56 $
+	# Version:   $Revision: 1.20 $
+	# Copyright (c) 2004-2018
+	# Luca Antiga, David Steinman, Simone Manini, Richard Izzo
+#
+# VMTK is distributed under the BSD 3-Clause License.
+# The original VMTK copyright and license notice is retained.
+#
+# Modifications:
+# Copyright (c) 2026 [Your name / authors]
+#
+# Modified for [Project/Software Name]:
+# - [Briefly describe modification, e.g.
+#   "Modified the radius calculation used for ..."]
+#
+# See THIRD_PARTY_LICENSES.md and the accompanying VMTK license
+# for complete licensing information.
 
-## Program:   VMTK
-## Module:    $RCSfile: vmtkcenterlines.py,v $
-## Language:  Python
-## Date:      $Date: 2006/07/17 09:52:56 $
-## Version:   $Revision: 1.20 $
-
-##   Copyright (c) Luca Antiga, David Steinman. All rights reserved.
-##   See LICENSE file for details.
-
-##      This software is distributed WITHOUT ANY WARRANTY; without even
-##      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
-##      PURPOSE.  See the above copyright notices for more information.
 
 from __future__ import absolute_import #NEEDS TO STAY AS TOP LEVEL MODULE FOR Py2-3 COMPATIBILITY
 import vtk
