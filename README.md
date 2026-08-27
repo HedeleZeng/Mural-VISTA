@@ -7,12 +7,7 @@ A tool for mural cell-vessel interaction assessment and multiscale single-cell t
 
 Source program in this release: **`Mural-VISTA_v1.0.0_260726.py`**
 
-> Development note: this source file is named
-> `260726_MuralVista_main_axis_extraction_refined.py` in the working project.
-> The public v1.0.0 GitHub/Zenodo release should refer to it as
-> `Mural-VISTA_v1.0.0_260726.py`.
-
-Mural-VISTA analyzes the 3-D surface morphology of a mural cell and, when a
+Mural-VISTA analyzes the 3D surface morphology of a mural cell and, when a
 registered vessel mesh is supplied, the spatial relationship between the cell
 and the vessel. The program extracts centerlines, separates branches and soma,
 calculates morphology and topology measurements, and exports both numerical
@@ -120,7 +115,31 @@ On a repeated run, Mural-VISTA reuses compatible clipped meshes, selected seed
 points, segmentation caches, and centerlines. Remove the relevant cache only
 when that interactive stage needs to be repeated.
 
-## Requirements
+
+## Run with Ready-to-use Windows GUI
+
+An associated 64-bit Windows GUI is also available as
+`Mural-VISTA-GUI_v1.0.0_Windows_exe.zip`. It bundles Python and the required scientific
+libraries, so users do not need to install Python or Conda.
+
+To use it:
+
+1. Download the ZIP from the Mural-VISTA GitHub release or Zenodo record.
+2. Extract the **complete** ZIP.
+3. Start `Mural-VISTA.exe`.
+
+Keep `Mural-VISTA.exe` together with its `_internal` folder. The EXE should not
+be copied or distributed by itself. The GUI provides folder browsing, dataset
+discovery, progress display, and parameter/export selection, while the core
+scientific workflow still opens interactive VMTK/PyVista windows.
+
+The currently associated GUI uses a later GUI-adapted Mural-VISTA pipeline.
+For an exactly reproducible analysis, record whether the v1.0.0 source or a
+particular GUI release was used.
+
+## Run with Python
+
+**Requirements**
 
 The project was tested with Python 3.10 and the environment recorded in
 `envi_lib_list.txt`. The main non-standard dependencies are:
@@ -138,7 +157,7 @@ verify the environment with:
 python -c "import vtk, pyvista, vmtk, numpy, pandas, scipy, networkx, trimesh, pymeshfix, gudhi, openpyxl"
 ```
 
-## Modified VMTK function
+**Modified VMTK function**
 
 Mural-VISTA uses a **modified** version of VMTK's `vmtkcenterlines.py`. 
 (https://github.com/vmtk/vmtk/blob/master/vmtkScripts/vmtkcenterlines.py)
@@ -164,8 +183,7 @@ For source use:
    keeping exactly the same filename.
 
 
-
-## Run the source program
+**Run the source program**
 
 1. Activate the prepared Python environment.
 2. Edit `DEFAULT_INPUT_DIR` in `Mural-VISTA_v1.0.0_260726.py`.
@@ -179,27 +197,6 @@ For source use:
    the current dataset name are printed in the terminal.
 
 
-## Ready-to-use Windows GUI
-
-An associated 64-bit Windows GUI is also available as
-`Mural-VISTA-GUI_v1.0.0_Windows_exe.zip`. It bundles Python and the required scientific
-libraries, so users do not need to install Python or Conda.
-
-To use it:
-
-1. Download the ZIP from the Mural-VISTA GitHub release or Zenodo record.
-2. Extract the **complete** ZIP.
-3. Open the extracted `Mural-VISTA` folder and double-click
-   `Mural-VISTA.exe`.
-
-Keep `Mural-VISTA.exe` together with its `_internal` folder. The EXE should not
-be copied or distributed by itself. The GUI provides folder browsing, dataset
-discovery, progress display, and parameter/export selection, while the core
-scientific workflow still opens interactive VMTK/PyVista windows.
-
-The currently associated GUI uses a later GUI-adapted Mural-VISTA pipeline.
-For an exactly reproducible analysis, record whether the v1.0.0 source or a
-particular GUI release was used.
 
 ## Citation
 
@@ -221,8 +218,8 @@ Please cite:
 
 ## Project links
 
-- GitHub repository or release: **[add GitHub URL]**
-- Zenodo archive and DOI: **[add Zenodo URL or DOI]**
+- GitHub repository and release: **[add GitHub URL]**
+- Zenodo archive: **[add Zenodo URL]**
 
 ## License
 
