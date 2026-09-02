@@ -205,10 +205,14 @@ If Mural-VISTA contributes to your work, **we would greatly appreciate a citatio
 Please cite:
 
 1. The exact Mural-VISTA software version used.
-2. The associated Mural-VISTA research article, when its citation is provided
-   on the project page.
+2. The associated Mural-VISTA research article
 
-3. VMTK:
+   Zeng, H., et al.,
+   Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis.
+   bioRxiv, 2026. 
+   DOI: 10.64898/2026.08.27.747487
+   
+4. VMTK:
 
    Izzo, R., et al., 
    The Vascular Modeling Toolkit: A Python Library for the Analysis of Tubular Structures in Medical Images. 
@@ -220,7 +224,8 @@ Please cite:
 
 - GitHub repository and release:  https://github.com/HedeleZeng/Mural-VISTA.git
 - Zenodo archive: 10.5281/zenodo.22124716
-- BioRxiv archive: 
+- BioRxiv archive: https://www.biorxiv.org/content/10.64898/2026.08.27.747487v1
+  Zeng, H., et al., Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis. bioRxiv, 2026.
   
 ## License
 
