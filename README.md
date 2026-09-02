@@ -225,6 +225,7 @@ Please cite:
 - GitHub repository and release:  https://github.com/HedeleZeng/Mural-VISTA.git
 - Zenodo archive: 10.5281/zenodo.22124716
 - BioRxiv archive: https://www.biorxiv.org/content/10.64898/2026.08.27.747487v1
+
   Zeng, H., et al., Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis. bioRxiv, 2026.
   
 ## License
