@@ -1,24 +1,22 @@
 # Mural-VISTA GUI
 
-Mural-VISTA is a PySide6 desktop interface for
-`Mural-VISTA_v1.0.0_260726.py`.
-
+Mural-VISTA is a PySide6 desktop interface 
 
 ## GUI workflow
 
-1. Choose the input folder containing paired
-   `<cell>_fused_green.ply` and optional `<cell>_fused_red.ply` files.
-2. Choose a separate output folder.
-3. Select **Explore files**. The GUI creates or reads
-   `file_list.xlsx` in the output folder and shows the active cell count.
-4. Enter the zero-based start number.
-5. Check parameters in the left box and output formats in the middle box,
-   then select **Add selected**.
-6. Select **Run analysis**.
+1. Choose the input folder containing `<cell>_fused_green.ply` (or `_fused_gre.ply`)
+   and optional `<cell>_fused_red.ply`.
+2. Choose an output folder and click **Explore files**.
+3. Enter the zero-based **Start number**.
+4. Choose the **options** if needed:
 
-The progress area shows the current cell number, total cell count, and cell
-name. The scientific pipeline still opens its normal interactive 3D windows
-for seed picking, clipping, and confirmation.
+   - **Expand the mural cell mesh**:
+     Enter a non-negative distance in mesh units.
+   - **Open the corresponding raw z-stack image for cell structure reference**:
+     place `<cell>_fused.tif`, `.tiff`, `.ome.tif`, or `.ome.tiff` beside the mesh.
+
+5. Select parameters, choose output formats, and click **Add selected**.
+6. Click **Run analysis** and complete the interactive 3-D selections.
 
 **Skip this cell** stops at the next safe stage boundary. The GUI tries to
 close active PyVista windows; if a VMTK or 3D selection window stays visible,
@@ -38,10 +36,6 @@ so the removed cell remains excluded.
 - Before writing the current selection, the GUI removes only Mural-VISTA's
   known parameter-result JSON files from a previous run in that cell's
   output folder. Unrelated user JSON files are preserved.
-
-The source Python script still writes its complete legacy set of parameter
-JSON files. GUI runs suppress that complete set and export only the current
-user selection.
 
 Preprocessed meshes, seed files, and derived PLY files are written under the
 chosen output root. Per-cell JSON, pickle, VTU, and VTP results are written to
