@@ -1,11 +1,9 @@
 # Mural-VISTA
 A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis
 
-# v1.0.0 (260726)
+# v2.0.0 (261006)
 
 **Mural cell-Vessel Interaction and Single-cell Topo-morphology Analysis**
-
-Source program in this release: **`Mural-VISTA_v1.0.0_260726.py`**
 
 Mural-VISTA analyzes the 3D surface morphology of a mural cell and, when a
 registered vessel mesh is supplied, the spatial relationship between the cell
@@ -133,10 +131,6 @@ be copied or distributed by itself. The GUI provides folder browsing, dataset
 discovery, progress display, and parameter/export selection, while the core
 scientific workflow still opens interactive VMTK/PyVista windows.
 
-The currently associated GUI uses a later GUI-adapted Mural-VISTA pipeline.
-For an exactly reproducible analysis, record whether the v1.0.0 source or a
-particular GUI release was used.
-
 ## Run with Python
 
 **Requirements**
@@ -186,16 +180,15 @@ For source use:
 **Run the source program**
 
 1. Activate the prepared Python environment.
-2. Edit `DEFAULT_INPUT_DIR` in `Mural-VISTA_v1.0.0_260726.py`.
+2. Edit `DEFAULT_INPUT_DIR` in `Mural-VISTA_v2.0.0_261006.py`.
 3. Start the program from a terminal:
 
    ```bash
-   python Mural-VISTA_v1.0.0_260726.py
+   python Mural-VISTA_v2.0.0_261006.py
    ```
 
 4. Keep the terminal open and complete each interactive 3-D step. Progress and
    the current dataset name are printed in the terminal.
-
 
 
 ## Citation
