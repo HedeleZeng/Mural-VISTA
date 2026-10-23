@@ -12,3 +12,8 @@ First release for the preprint
 2. Added the "Branch tree max length (rooted)" parameter to calculate the maximum root-to-tip path length of the secondary-process tree.
 3. Introduced a napari viewer in the GUI version for structural reference.
 4. Optimized the GUI processing logic to reduce freezing and unexpected crashes.
+   
+# v2.1.0 (261023) 
+
+1. Core analysis code structure adjustment.
+2. Solved a skimage cache check issue in last packaged version. 
