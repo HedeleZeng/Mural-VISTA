@@ -16,4 +16,5 @@ First release for the preprint
 # v2.1.0 (261023) 
 
 1. Core analysis code structure adjustment.
-2. Solved a skimage cache check issue in last packaged version. 
+2. Changed the file name for smoother PyInstaller packaging.
+3. Solved a skimage cache check issue in last packaged version. 
