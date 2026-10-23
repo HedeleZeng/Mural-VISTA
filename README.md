@@ -1,7 +1,7 @@
 # Mural-VISTA
 A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis
 
-# v2.0.0 (261006)
+# Latest version: v2.1.0 (261023)
 
 **Mural cell-Vessel Interaction and Single-cell Topo-morphology Analysis**
 
