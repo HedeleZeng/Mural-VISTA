@@ -1,3 +1,5 @@
+[English](README.md) | [简体中文](README.zh-Simp.md) | [繁體中文](README.zh-Trad.md) | [日本語](README.ja.md)
+
 # Mural-VISTA
 A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis
 
@@ -106,7 +108,7 @@ Each dataset also receives its own folder:
 The reported quantities include branch length, diameter, curvature, torsion,
 tortuosity, surface area and volume; branch-tree organization; soma volume,
 area, sphericity, solidity and principal axes; main-axis geometry; whole-cell
-shape and topology; and, when the red mesh is supplied, mural cell-vessel
+shape and topology; and, when the vessel mesh is supplied, mural cell-vessel
 spatial measurements.
 
 On a repeated run, Mural-VISTA reuses compatible clipped meshes, selected seed

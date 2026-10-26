@@ -1,3 +1,5 @@
+[English](README_GUI.md) | [简体中文](README_GUI.zh-Simp.md) | [繁體中文](README_GUI.zh-Trad.md) | [日本語](README_GUI.ja.md)
+
 # Mural-VISTA GUI
 
 Mural-VISTA is a PySide6 desktop interface 
