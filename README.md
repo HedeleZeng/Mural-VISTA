@@ -117,7 +117,7 @@ when that interactive stage needs to be repeated.
 ## Run with Ready-to-use Windows GUI
 
 An associated 64-bit Windows GUI is also available as
-`Mural-VISTA-GUI_v1.0.0_Windows_exe.zip`. It bundles Python and the required scientific
+`Mural-VISTA_v2.1.0_Windows_x64.zip`. It bundles Python and the required scientific
 libraries, so users do not need to install Python or Conda.
 
 To use it:
@@ -180,11 +180,11 @@ For source use:
 **Run the source program**
 
 1. Activate the prepared Python environment.
-2. Edit `DEFAULT_INPUT_DIR` in `Mural-VISTA_v2.0.0_261006.py`.
+2. Edit `DEFAULT_INPUT_DIR` in `Mural-VISTA_v2-1-0_261023.py`.
 3. Start the program from a terminal:
 
    ```bash
-   python Mural-VISTA_v2.0.0_261006.py
+   python Mural-VISTA_v2-1-0_261023.py
    ```
 
 4. Keep the terminal open and complete each interactive 3-D step. Progress and
