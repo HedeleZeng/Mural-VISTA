@@ -1,4 +1,4 @@
-[English](README.md) | [简体中文](README.zh-Simp.md) | [繁體中文](README.zh-Trad.md) | [日本語](README.ja.md)
+[English](README.md) | [简体中文](READMEs/README.zh-Simp.md) | [繁體中文](READMEs/README.zh-Trad.md) | [日本語](READMEs/README.ja.md)
 
 # Mural-VISTA
 A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis
